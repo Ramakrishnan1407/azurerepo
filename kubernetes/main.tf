@@ -41,7 +41,7 @@ resource "kubernetes_deployment" "example" {
             }
             requests = {
               cpu    = "250m"
-              memory = "50Mi"
+              memory = "100Mi"
             }
           }
         }
