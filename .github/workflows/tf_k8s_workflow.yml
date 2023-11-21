@@ -10,7 +10,7 @@ on:
     # Inputs the workflow accepts.
     inputs:
       tfpath:
-        description: 'TF Code Path'     
+        description: 'TF CodePath'     
         required: false
         default: 'kubernetes'
 
